@@ -1,0 +1,147 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+.carousel-item img {
+  height: 95vh;
+}
+
+.card-img-top {
+  height: 200px;
+  object-fit: cover;
+}
+
+.my-5 {
+  height: 100%;
+  width: auto;
+}
+
+.card:hover {
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.3);
+}
+
+.card-title {
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.card-text {
+  font-size: 18px;
+}
+
+#modules {
+  background-color: #f9f9f9;
+  height: 100%;
+  padding: 50px 0;
+}
+
+#modules h2 {
+  font-size: 48px;
+  font-weight: 700;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+#modules hr {
+  border-top: 3px solid #9b4dca;
+  width: 80px;
+  margin: 0 auto;
+  margin-bottom: 30px;
+}
+
+#modules .card {
+  border: none;
+  box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1);
+  height: 100%;
+}
+
+#modules .card-body {
+  padding: 30px;
+  text-align: center;
+}
+
+#modules .card-title {
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+
+#modules .card-subtitle {
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 15px;
+  color: #777777;
+}
+
+#modules .card-text {
+  margin-bottom: 30px;
+  padding-left: 20px;
+  text-align: left;
+}
+
+#modules .card-text li {
+  list-style: disc;
+  margin-bottom: 10px;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+#modules .card-link {
+  display: inline-block;
+  margin-top: 30px;
+  padding: 10px 20px;
+  background-color: #9b4dca;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 600;
+  border-radius: 30px;
+  transition: all 0.3s ease;
+}
+
+#modules .card-link:hover {
+  background-color: #682773;
+  color: #fff;
+  text-decoration: none;
+}
+
+.learnFromAnyWhere-website-footer-section {
+  background-color: #19232d;
+  color: #fff;
+  background-size: cover;
+  padding: 20px;
+}
+
+#logo {
+  height: 40px;
+}
+
+.icons {
+  background-color: #202b36;
+  border-radius: 25px;
+  height: 50px;
+  width: 50px;
+  padding: 15px;
+}
+
+/* .section-follow {} */
+
+.address {
+  color: #5a7184;
+  font-family: "Roboto";
+  font-size: 15px;
+}
+
+.contact-us-sec {
+  text-align: left;
+}
+
+.cont-let-heading {
+  color: #5a7184;
+  font-family: "Roboto";
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.endline {
+  color: #959ead;
+  font-family: "Roboto";
+  font-size: 20px;
+  text-align: center;
+}
