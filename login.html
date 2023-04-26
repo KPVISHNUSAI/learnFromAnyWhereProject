@@ -25,7 +25,7 @@
               <h4>Login</h4>
             </div>
             <div class="card-body">
-              <form>
+              <form id="loginId">
                 <div class="form-group">
                   <label for="email">Email:</label>
                   <input
@@ -44,7 +44,11 @@
                     placeholder="Enter password"
                   />
                 </div>
-                <button type="submit" class="btn btn-primary btn-block">
+                <button
+                  type="submit"
+                  href="index.html"
+                  class="btn btn-primary btn-block"
+                >
                   Submit
                 </button>
               </form>
@@ -52,6 +56,7 @@
             <div class="card-footer text-center">
               <p>Don't have an account? <a href="#">Sign up</a></p>
             </div>
+            <p class="text-danger" id="warningText"></p>
           </div>
         </div>
       </div>
