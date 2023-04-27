@@ -10,7 +10,7 @@
       href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
     />
     <!-- Custom CSS -->
-    <link rel="stylesheet" href="login.css" />
+    <link rel="stylesheet" href="static/login.css" />
     <script
       src="https://kit.fontawesome.com/0ad80c22d0.js"
       crossorigin="anonymous"
@@ -25,13 +25,13 @@
               <h4>Login</h4>
             </div>
             <div class="card-body">
-              <form id="loginId">
+              <form id="loginId" action="{{url_for('home')}}"method="post">
                 <div class="form-group">
                   <label for="email">Email:</label>
                   <input
                     type="email"
                     class="form-control"
-                    id="email"
+                    name = "email"
                     placeholder="Enter email"
                   />
                 </div>
@@ -40,18 +40,21 @@
                   <input
                     type="password"
                     class="form-control"
-                    id="password"
+                    name = "password"
                     placeholder="Enter password"
                   />
                 </div>
                 <button
                   type="submit"
-                  href="index.html"
+                  
                   class="btn btn-primary btn-block"
                 >
                   Submit
                 </button>
               </form>
+              <div>
+                {{error}}
+              </div>
             </div>
             <div class="card-footer text-center">
               <p>Don't have an account? <a href="#">Sign up</a></p>
@@ -63,7 +66,7 @@
     </div>
 
     <!-- JavaScript -->
-    <script src="login.js"></script>
+    <script src="static/login.js"></script>
     <!-- jQuery -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <!-- Popper.js -->
